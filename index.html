@@ -1,0 +1,342 @@
+<!DOCTYPE html><html lang="en"><head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Shalani Kumari - Web Developer Resume</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    ::selection{
+    background-color: rgb(4, 255, 251);
+    color: red;
+    }
+    body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background: linear-gradient(to right, #ece9e6, #ffffff);
+}
+
+.container {
+  display: flex;
+  width: 75%;
+  max-width: 12000px;
+  margin: auto;
+  background: #fff;
+  box-shadow: 0 0 25px rgba(0, 0, 0, 0.1);
+  border-radius: 12px;
+  overflow: hidden;
+  animation: slideUp 1.2s ease forwards;
+}
+
+.left {
+  width: 35%;
+  background: #0f0f0f;
+  color: white;
+  padding: 30px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  transition: background 0.3s ease-in-out;
+}
+
+.left:hover {
+  background: #1f1f1f;
+}
+
+.left img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid #fff;
+  margin-bottom: 20px;
+  animation: pulse 2s infinite;
+}
+
+.left h2 {
+  font-size: 24px;
+  margin-bottom: 5px;
+}
+
+.left p {
+  font-size: 16px;
+  color: #ccc;
+}
+
+.section {
+  margin-top: 30px;
+  text-align: left;
+}
+
+.section h3 {
+  margin-bottom: 10px;
+  font-size: 18px;
+  color: #ffcc00;
+  border-bottom: 2px solid #ffcc00;
+  display: inline-block;
+}
+
+.section ul {
+  list-style: none;
+  margin-top: 10px;
+}
+
+.section ul li {
+  margin: 8px 0;
+  color: #ccc;
+}
+
+.right {
+  width: 65%;
+  padding: 30px;
+}
+
+.right h3 {
+  font-size: 20px;
+  color: #333;
+  margin-bottom: 10px;
+  position: relative;
+}
+
+.right p,
+.right li {
+  font-size: 15px;
+  color: #555;
+  margin-bottom: 10px;
+}
+
+.right ul {
+  padding-left: 20px;
+}
+
+.skills, .hobbies {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.skills span,
+.hobbies span {
+  background: #f1f1f1;
+  padding: 5px 12px;
+  border-radius: 20px;
+  font-size: 14px;
+  transition: transform 0.3s;
+}
+
+.skills span:hover,
+.hobbies span:hover {
+  background: #ffcc00;
+  color: #000;
+  transform: scale(1.1);
+}
+
+.btn {
+  display: inline-block;
+  padding: 8px 16px;
+  background: #ffcc00;
+  color: #000;
+  border-radius: 25px;
+  text-decoration: none;
+  margin-top: 10px;
+  transition: all 0.3s ease;
+}
+
+.btn:hover {
+  background: #e6b800;
+  transform: scale(1.05);
+}
+
+footer {
+  color: rgb(12, 11, 11);
+  text-align: center;
+  padding: 10px 5px;
+  width: 100%;
+  margin-top: auto;
+  margin-left: 50px;
+}
+
+.footer-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+footer p {
+  margin-bottom:20px;
+  font-size: 16px;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin-bottom: 15px;
+}
+
+.icon {
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+  border-radius: 50%;
+  color: white;
+  text-decoration: none;
+  transition: transform 0.3s;
+}
+
+.instagram { background: #ff01b3; }
+.whatsapp { background: #25D366; }
+.youtube   { background: #FF0000; }
+.linkedin  { background: #0077b5; }
+.github { background: black;}
+
+.icon:hover {
+  transform: scale(1.1);
+}
+
+@keyframes slideUp {
+  from {
+    opacity: 0;
+    transform: translateY(50px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.05);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+/* Making is responsive using media queries */
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+  }
+  .left,
+  .right {
+    width: 100%;
+  }
+  .left {
+    padding: 20px;
+  }
+}
+
+a{
+  text-decoration: none;
+  color: blue;
+  font-weight: bold;
+}
+  </style>
+</head><body>
+  <div class="container">
+    <div class="left">
+      <img src="WhatsApp Image 2025-07-06 at 7.30.22 AM.jpeg" alt="shalani kumari" />
+      <h2>Shalani Kumari</h2>
+      <p>Aspiring Web Developer</p><div class="section">
+    <h3>1. Contact</h3>
+    <ul>
+      <li>Email: shalani2024@gmail.com</li>
+      <li>Address: Mahesh Nagar, Near Atal Path, patna 800004 </li>
+      <li>LinkedIn: <a href="www.linkedin.com/in/shalani-kumari-54449a371">My Linkedin</a></li>
+    </ul>
+  </div>
+
+  <div class="section">
+    <h3>2. Languages</h3>
+    <ul>
+      <li>English: Fluent</li>
+      <li>Hindi: Native</li>
+      <li>basic proficiency in Telugu</li>
+    </ul>
+  </div>
+
+  <div class="section">
+    <h3>3. Certificates</h3>
+    <ul>
+      <li>Diploma in Databases and T-SQL <br><a href="WhatsApp Image 2025-07-06 at 8.56.04 AM.jpeg" class="btn">View Certificate</a></li>
+      <li>Diploma in Microsoft Excel for Beginners and Experts. <br><a href="WhatsApp Image 2025-07-06 at 8.56.04 AM (1).jpeg" class="btn">View Certificate</a></li>
+      <li>Introduction to HTML Structures in Website Development <br><a href="WhatsApp Image 2025-07-06 at 8.56.06 AM (1).jpeg" class="btn">View Certificate</a></li>
+      <li>Diploma in Website Development Using HTML and CSS. <br><a href="WhatsApp Image 2025-07-06 at 8.56.06 AM.jpeg" class="btn">View Certificate</a></li>
+
+    </ul>
+  </div>
+</div>
+
+<div class="right">
+  <div class="section">
+    <h3>4. About Me</h3>
+    <p>I’m a BCA student at CIMAGE Professional College with a strong interest in full stack web development. I enjoy creating engaging, user-friendly websites and web apps that make a difference.
+💻 I’ve already built several exciting projects like a personal portfolio site, a creative Indian cooking recipe webpage, and even a moon animation — combining design with interactive elements using HTML, CSS, JavaScript, and Bootstrap.
+🌱 Currently, I’m diving into React.js, Node.js, and Git to become a fully capable full stack developer. I love solving real-world problems through code and continuously improving my skills with every project.
+🎯 My goal is to work as a full stack developer where I can build scalable applications and contribute to innovative teams.<br>
+
+✅ Skills: HTML, CSS, JavaScript, Bootstrap, Git<br>
+📌 Learning: MongoDB, Express.js, REST APIs<br>
+🤝 Let’s connect and build the web together!</p>
+  </div>
+
+  <div class="section">
+    <h3>5. Education</h3>
+    <p><strong>Bachelor of Computer Application</strong><br>Cimage Professional College  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;      ....In Progress</p>
+
+
+  <div class="section">
+    <h3>6. Projects</h3>
+    <ul>
+      <li>Flipkart Website.<br><p>Designed and developed a responsive Flipkart website to showcase skills, project<br><a href="https://shalanikumari.github.io/portfolio/flipkartfront.html" class="btn">View Project</a></li>
+      <li>Personal Portfolio<br><p>Designed and developed a responsive personal portfolio webiste using HTML and CSS.</p><a href="https://shalanikumari.github.io/portfolio/" class="btn">View Project</a></li>
+    </ul>
+  </div>
+
+  <div class="section">
+    <h3>7. Skills</h3>
+    <div class="skills">
+      <span>Windows</span><span>MS Office</span><span>Internet</span><span>HTML5</span>
+      <span>CSS3</span><span>JAVASCRIPT</span><span>Creativity</span><span>Time Mgmt.</span>
+      <span>Python</span><span>Communication</span><span>Teamwork</span><span>Project Mgmt.</span>
+    </div>
+  </div>
+
+  <div class="section">
+    <h3>8. Hobbies</h3>
+    <div class="hobbies">
+      <span>Photography</span><span>Painting</span><span>Dance</span><span>Blogging</span>
+     <span>Public Speaking</span><span>Watching Movies</span>
+    </div>
+  </div>
+</div>
+
+  </div> 
+<footer>
+  <div class="footer-container">
+    <p>Connect with me:</p>
+    <div class="social-icons">
+      <a href="https://www.instagram.com/itz_ridz_912" class="icon instagram" target="_blank"><i class="fab fa-instagram"></i></a>
+      <a href="https://wa.me/919876543210" class="icon whatsapp" target="_blank"><i class="fab fa-whatsapp"></i></a>
+      <a href="https://www.youtube.com/@riddhipandey-hu3lb" class="icon youtube" target="_blank"><i class="fab fa-youtube"></i></a>
+      <a href="https://www.linkedin.com/in/shalani-kumari-54449a371" class="icon linkedin" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+      <a href="https://github.com/settings/profile" class="icon github" target="_blank"><i class="fa-brands fa-github"></i></a>
+    </div>
+    <p>&copy; 2025 Shalani Kumari. All Rights Reserved.</p>
+  </div>
+</footer>
+
+</body></html>
